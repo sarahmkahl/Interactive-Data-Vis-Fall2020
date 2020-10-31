@@ -1,14 +1,18 @@
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
-    <title>Interactive Data Visualization Tutorial</title>
+    <title>New York City Deaths</title>
     <link rel="stylesheet" href="./style.css">
   </head>
+    <h1>New York City Deaths</h1>
+    <h2>This graph aims to show the number of deaths in New York City from 2007 to 2014 </h2>
+    <h3>Each dot on the scatterplot represents a cause of death. You can use the filter below to see the number of deaths by sex.</h3>
   <body>
     <label for="dropdown">Filter Selection</label>
     <select id="dropdown" name="dropdown"></select>
     <div id="d3-container"> </div>
     <script src="../lib/d3.js"></script>
+    <script src="../lib/d3-array.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
